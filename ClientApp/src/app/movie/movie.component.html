@@ -1,0 +1,13 @@
+<div class="text-center">
+  <div *ngIf="movie" class="card">
+    <div class="card-title">Title: {{ movie.movieName }}</div>
+    <div>Release Date: {{ movie.releaseDate | date }}</div>
+    <a class="btn btn-primary" (click)="AddMovie()">Book</a>
+  </div>
+  <div class="text-center">
+    <div class="info btn-success" id="info">
+      Movie has been added to your bookings
+      <div (click)="Close()">&times;</div>
+    </div>
+  </div>
+</div>

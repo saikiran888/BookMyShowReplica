@@ -1,0 +1,8 @@
+<p *ngIf="!BookedMovies">No movies to load</p>
+
+<div *ngFor="let movie of BookedMovies">
+  <div class="card">
+    <div class="card-title">Title: {{ movie.movieName }}</div>
+    <div>Release Date: {{ movie.releaseDate | date }}</div>
+  </div>
+</div>

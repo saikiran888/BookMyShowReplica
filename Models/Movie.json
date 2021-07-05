@@ -1,0 +1,206 @@
+[
+  {
+    "MovieId": 1,
+    "MovieName": "When Harry Met Sally",
+    "ReleaseDate": "1989-2-12",
+    "Language": "English",
+    "Genre": "Romantic Comedy",
+    "Price": "7.99"
+  },
+
+  {
+    "MovieId": 2,
+    "MovieName": "Ghostbusters ",
+    "ReleaseDate": "1984-3-13",
+    "Language": "English",
+    "Genre": "Comedy",
+    "Price": "8.99"
+  },
+
+  {
+    "MovieId": 3,
+    "MovieName": "Ghostbusters 2",
+    "ReleaseDate": "1986-2-23",
+    "Language": "English",
+    "Genre": "Comedy",
+    "Price": "9.99"
+  },
+
+  {
+    "MovieId": 4,
+    "MovieName": "Rio Bravo",
+    "ReleaseDate": "1959-4-15",
+    "Language": "English",
+    "Genre": "Western",
+    "Price": "3.99"
+  },
+  {
+    "MovieId": 5,
+    "MovieName": "Acharya",
+    "ReleaseDate": "2021-5-19",
+    "Language": "Telugu",
+    "Genre": "Action",
+    "Price": "6.99"
+  },
+  {
+    "MovieId": 6,
+    "MovieName": "Now You See Me",
+    "ReleaseDate": "2013-6-15",
+    "Language": "English",
+    "Genre": "Mystery",
+    "Price": "4.58"
+  },
+  {
+    "MovieId": 7,
+    "MovieName": "Now You See Me 2",
+    "ReleaseDate": "2015-2-12",
+    "Language": "English",
+    "Genre": "Mystery",
+    "Price": "7.99"
+  },
+
+  {
+    "MovieId": 8,
+    "MovieName": "Ghostbusters 3",
+    "ReleaseDate": "1987-8-13",
+    "Language": "English",
+    "Genre": "Comedy",
+    "Price": "8.99"
+  },
+
+  {
+    "MovieId": 9,
+    "MovieName": "Ghostbusters 4",
+    "ReleaseDate": "1989-4-23",
+    "Language": "English",
+    "Genre": "Comedy",
+    "Price": "9.99"
+  },
+
+  {
+    "MovieId": 10,
+    "MovieName": "RRR",
+    "ReleaseDate": "2022-4-15",
+    "Language": "Telugu",
+    "Genre": "History",
+    "Price": "9.99"
+  },
+  {
+    "MovieId": 11,
+    "MovieName": "Rebel",
+    "ReleaseDate": "2012-5-19",
+    "Language": "Telugu",
+    "Genre": "Action",
+    "Price": "6.99"
+  },
+  {
+    "MovieId": 12,
+    "MovieName": "Gabbar Singh",
+    "ReleaseDate": "2016-6-15",
+    "Language": "Telugu",
+    "Genre": "Action",
+    "Price": "4.58"
+  },
+  {
+    "MovieId": 13,
+    "MovieName": "Julayi",
+    "ReleaseDate": "2015-2-12",
+    "Language": "Telugu",
+    "Genre": "Drama",
+    "Price": "7.99"
+  },
+
+  {
+    "MovieId": 14,
+    "MovieName": "Stepup",
+    "ReleaseDate": "2004-3-13",
+    "Language": "English",
+    "Genre": "Drama",
+    "Price": "8.99"
+  },
+
+  {
+    "MovieId": 15,
+    "MovieName": "Stepup 2",
+    "ReleaseDate": "2006-2-23",
+    "Language": "English",
+    "Genre": "Drama",
+    "Price": "9.99"
+  },
+
+  {
+    "MovieId": 16,
+    "MovieName": "Kalank",
+    "ReleaseDate": "2020-4-15",
+    "Language": "Hindi",
+    "Genre": "Historical",
+    "Price": "3.99"
+  },
+  {
+    "MovieId": 17,
+    "MovieName": "Ms Dhoni",
+    "ReleaseDate": "2018-5-19",
+    "Language": "Hindi",
+    "Genre": "Biography",
+    "Price": "6.99"
+  },
+  {
+    "MovieId": 18,
+    "MovieName": "Krish",
+    "ReleaseDate": "2012-6-15",
+    "Language": "Hindi",
+    "Genre": "Fantasy",
+    "Price": "4.58"
+  },
+  {
+    "MovieId": 19,
+    "MovieName": "Krish 3",
+    "ReleaseDate": "2018-2-12",
+    "Language": "Hindi",
+    "Genre": "Fantasy",
+    "Price": "7.99"
+  },
+
+  {
+    "MovieId": 20,
+    "MovieName": "Titanic",
+    "ReleaseDate": "1994-3-13",
+    "Language": "English",
+    "Genre": "Romantic",
+    "Price": "8.99"
+  },
+
+  {
+    "MovieId": 21,
+    "MovieName": "Avatar",
+    "ReleaseDate": "2015-2-23",
+    "Language": "English",
+    "Genre": "Fantasy",
+    "Price": "9.99"
+  },
+
+  {
+    "MovieId": 22,
+    "MovieName": "Annamayya",
+    "ReleaseDate": "2006-4-15",
+    "Language": "Telugu",
+    "Genre": "Devotional",
+    "Price": "3.99"
+  },
+  {
+    "MovieId": 23,
+    "MovieName": "C/O Kancharlapalem",
+    "ReleaseDate": "2019-5-19",
+    "Language": "Telugu",
+    "Genre": "Drama",
+    "Price": "6.99"
+  },
+  {
+    "MovieId": 24,
+    "MovieName": "Color Photo",
+    "ReleaseDate": "2020-6-15",
+    "Language": "Telugu",
+    "Genre": "Romantic",
+    "Price": "4.58"
+  }
+]

@@ -1,0 +1,57 @@
+<p *ngIf="!airingMovies">No movies to load</p>
+<div class="movie-container text-center flex">
+  <div *ngFor="let item of airingMovies; let i = index">
+    <div
+      *ngIf="i % 4 == 0"
+      ng
+      class="row"
+      [routerLink]="['/movie', item.movieId]"
+    >
+      <div class="card movie">
+        <div class="card-title">Title: {{ item.movieName }}</div>
+        <div>Release Date: {{ item.releaseDate | date }}</div>
+        <div>Language: {{ item.language }}</div>
+        <div>Price: {{ item.price }}</div>
+      </div>
+      <div
+        *ngIf="i + 1 < airingMovies.length"
+        [routerLink]="['/movie', airingMovies[i + 1].movieId]"
+      >
+        <div class="card movie">
+          <div class="card-title">
+            Title: {{ airingMovies[i + 1].movieName }}
+          </div>
+          <div>Release Date: {{ airingMovies[i + 1].releaseDate | date }}</div>
+          <div>Language: {{ airingMovies[i + 1].language }}</div>
+          <div>Price: {{ airingMovies[i + 1].price }}</div>
+        </div>
+      </div>
+      <div
+        *ngIf="i + 2 < airingMovies.length"
+        [routerLink]="['/movie', airingMovies[i + 2].movieId]"
+      >
+        <div class="card movie">
+          <div class="card-title">
+            Title: {{ airingMovies[i + 2].movieName }}
+          </div>
+          <div>Release Date: {{ airingMovies[i + 2].releaseDate | date }}</div>
+          <div>Language: {{ airingMovies[i + 2].language }}</div>
+          <div>Price: {{ airingMovies[i + 2].price }}</div>
+        </div>
+      </div>
+      <div
+        *ngIf="i + 3 < airingMovies.length"
+        [routerLink]="['/movie', airingMovies[i + 3].movieId]"
+      >
+        <div class="card movie">
+          <div class="card-title">
+            Title: {{ airingMovies[i + 3].movieName }}
+          </div>
+          <div>Release Date: {{ airingMovies[i + 3].releaseDate | date }}</div>
+          <div>Language: {{ airingMovies[i + 3].language }}</div>
+          <div>Price: {{ airingMovies[i + 3].price }}</div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
